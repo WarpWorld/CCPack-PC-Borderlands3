@@ -6,9 +6,7 @@ namespace CrowdControl.Games.Packs.Borderlands3;
 
 public class Borderlands3 : SimpleTCPPack<SimpleTCPServerConnector>
 {
-    public Borderlands3(UserRecord player, Func<CrowdControlBlock, bool> responseHandler, Action<object> statusUpdateHandler) : base(player, responseHandler, statusUpdateHandler)
-    {
-    }
+    public Borderlands3(UserRecord player, Func<CrowdControlBlock, bool> responseHandler, Action<object> statusUpdateHandler) : base(player, responseHandler, statusUpdateHandler) { }
 
     public override Game Game => new("Borderlands 3", "Borderlands3", "PC", ConnectorType.SimpleTCPServerConnector);
 
