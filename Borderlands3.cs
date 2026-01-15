@@ -63,7 +63,6 @@ public class Borderlands3 : SimpleTCPPack<SimpleTCPServerConnector>
         new("Spawn Loot Tink", "spawn-enemy_loottink") { Quantity = 25, Category = new("Spawn Enemies"), Price = 300 },
         new("BEES!", "spawnenemy_ratchswarm_20") { Category = new("Spawn Enemies"), Price = 150 },
         new("Viewer Badass", "viewer_badass") { Price = 500, Category = new("Spawn Enemies") },
-        new("Spawn Wotan the Invincible", "spawn_Wotan") { Price = 1000, Category = new("Spawn Enemies") },
         new("Spawn Psycho", "spawn-enemy_psycho") { Price = 100, Quantity = 25, Category = new("Spawn Enemies"), Inactive = true },
         new("Spawn Jabber", "spawn-enemy_jabber") { Price = 100, Quantity = 25, Category = new("Spawn Enemies"), Inactive = true },
         new("Spawn Skag", "spawn-enemy_skag") { Price = 100, Quantity = 25, Category = new("Spawn Enemies"), Inactive = true },
@@ -106,3 +105,4 @@ public class Borderlands3 : SimpleTCPPack<SimpleTCPServerConnector>
         //new("Size Steal", "size_steal") { Duration = 60 },
     };
 }
+
