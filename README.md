@@ -1,5 +1,11 @@
 # Crowd Control Pack — Borderlands 3
 
+## Pack metadata
+- **Game display name:** Borderlands 3
+- **Crowd Control game ID:** `Borderlands3`
+- **Connector type:** `SimpleTCPServerConnector`
+
+
 This repository supplies the PC Crowd Control pack descriptor for **Borderlands
 3**. It contains effect metadata and the connector selection; the game-side
 implementation is maintained separately:
